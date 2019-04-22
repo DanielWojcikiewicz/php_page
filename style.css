@@ -1,0 +1,56 @@
+body {
+  background-image: url('static/img/sezam_tlo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 700px;
+  color: #FFF;
+}
+
+#container {
+    width: 75%;
+    background: rgba(0, 0, 0, .4);
+    margin: 1% auto;
+    height: auto;
+}
+
+#content {
+    padding: 1rem;
+}
+
+#top_part {
+    font-family: sans-serif;
+    margin-left: 5rem;
+}
+
+#middle_part {
+    border: 1px solid #424242;
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+#filters {
+    border-bottom: 1px solid #424242;
+}
+
+#basicfilters {
+    margin: 0 0 1rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.filter {
+}
+
+.checkmark {
+    transform: scale(1.5,1.5);
+    margin: 0 1.5rem 0 0.5rem;
+}
+input:checkmark {
+    margin-right: 1.5rem;
+}
+#logs {
+    font-size: 0.8rem;
+}
